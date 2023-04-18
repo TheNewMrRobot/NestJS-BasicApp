@@ -1,0 +1,13 @@
+### List ALL Messages
+GET http://localhost:3300/messages
+
+### Create a message
+POST http://localhost:3300/messages
+content-Type: application/json
+
+{
+    "content": "HI THERE"
+}
+
+### GET a particular message
+GET http://localhost:3300/messages/123
